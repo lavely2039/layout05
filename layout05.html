@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout05</title>
+    <style>
+        *{
+            margin:0; 
+            padding:0;
+        }
+        /* 전체를 표현하는 영역*/
+        #wrap{
+            color: #fff;
+            font-size: 30px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        #header-wrap{width:100%; height: 100px; background-color:#8d6e63;}
+        #banner-wrap{width:100%; height: 300px; background-color:#a1887f;}
+        #content-wrap{width:100%; height: 500px; background-color:#bcaaa4;}
+        #footer-wrap{width:100%; height: 100px; background-color:#d7ccc8;}
+
+        .header-container{
+            width: 1000px;
+            height: 100px;
+            background-color: #3e2723;
+            margin: 0 auto;
+            line-height:100px;
+        }
+        .banner-wrap{
+            width: 1000px;
+            height: 300px;
+            background-color: #4e342e;
+            margin:0 auto;
+            line-height:300px;
+        }
+        .content-wrap{
+            width:1000px;
+            height:500px;
+            background-color: #5d4037;
+            margin: 0 auto;
+            line-height: 500px;
+        }
+        .footer-wrap{
+            width: 1000px;
+            height: 100px;
+            background-color: #6d4c41;
+            margin: 0 auto;
+            line-height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header-wrap">
+            <div class="header-container">header</div>
+        </div>
+        <div id="banner-wrap">
+            <div class="banner-wrap">banner</div>
+        </div>
+        <div id="content-wrap">
+            <div class="content-wrap">content</div>
+        </div>
+        <div id="footer-wrap">
+            <div class="footer-wrap">footer</div>
+        </div>
+    </div>
+</body>
+</html>
